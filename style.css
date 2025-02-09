@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  /* Does NOT work on Safari */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  text-align: center;
+}
+h1 {
+  background-color: #081b31;
+  color: #fff;
+  font-size: 4rem;
+  padding: 2rem;
+}
+.choices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 5rem;
+}
+
+.choice {
+  height: 17rem;
+  width: 17rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.choice:hover {
+  background-color: #081b31;
+  opacity: 0.8;
+  /* cursor: pointer; */
+  scale: 0.9;
+  transition-duration: 0.8s;
+}
+.choices:hover {
+  cursor: pointer;
+}
+img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.score-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+.score {
+  font-size: 5rem;
+}
+
+.msg-container {
+  margin-top: 7rem;
+}
+.msg {
+  background-color: #081b31;
+  color: #fff;
+  padding: 2rem;
+  font-size: 3rem;
+  display: inline;
+  border-radius: 2rem;
+}
