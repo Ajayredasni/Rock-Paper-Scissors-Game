@@ -27,6 +27,7 @@ h1 {
   padding: 2rem;
 }
 .choices {
+  width:100vw;
   display: flex;
   align-items: center;
   justify-content: center;
