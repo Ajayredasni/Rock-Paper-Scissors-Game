@@ -26,10 +26,6 @@ h1 {
   font-size: 4rem;
   padding: 2rem;
 }
-.container{
-  width:50vw;
-  height:100vh;
-}
 .choices {
   display: flex;
   align-items: center;
